@@ -1,0 +1,450 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'optipng-bin' ]
+2 info using npm@1.2.18
+3 info using node@v0.10.4
+4 verbose read json /home/gauravt/linkedinhackathon/networkbee/package.json
+5 warn package.json networkbee@0.0.0 No README.md file found!
+6 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt/package.json
+7 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-bower-install/package.json
+8 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-chrome-manifest/package.json
+9 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-concurrent/package.json
+10 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-contrib-clean/package.json
+11 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-contrib-compress/package.json
+12 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-contrib-concat/package.json
+13 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-contrib-connect/package.json
+14 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-contrib-copy/package.json
+15 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-contrib-cssmin/package.json
+16 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-contrib-htmlmin/package.json
+17 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-contrib-imagemin/package.json
+18 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-contrib-jshint/package.json
+19 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-contrib-uglify/package.json
+20 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-contrib-watch/package.json
+21 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-mocha/package.json
+22 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-svgmin/package.json
+23 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/grunt-usemin/package.json
+24 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/jshint-stylish/package.json
+25 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/load-grunt-tasks/package.json
+26 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/time-grunt/package.json
+27 verbose from cache /home/gauravt/linkedinhackathon/networkbee/package.json
+28 verbose readDependencies using package.json deps
+29 verbose cache add [ 'optipng-bin', null ]
+30 verbose cache add name=undefined spec="optipng-bin" args=["optipng-bin",null]
+31 verbose parsed url { protocol: null,
+31 verbose parsed url   slashes: null,
+31 verbose parsed url   auth: null,
+31 verbose parsed url   host: null,
+31 verbose parsed url   port: null,
+31 verbose parsed url   hostname: null,
+31 verbose parsed url   hash: null,
+31 verbose parsed url   search: null,
+31 verbose parsed url   query: null,
+31 verbose parsed url   pathname: 'optipng-bin',
+31 verbose parsed url   path: 'optipng-bin',
+31 verbose parsed url   href: 'optipng-bin' }
+32 silly lockFile b5f746b4-optipng-bin optipng-bin
+33 verbose lock optipng-bin /home/gauravt/.npm/b5f746b4-optipng-bin.lock
+34 silly lockFile b5f746b4-optipng-bin optipng-bin
+35 silly lockFile b5f746b4-optipng-bin optipng-bin
+36 verbose addNamed [ 'optipng-bin', '' ]
+37 verbose addNamed [ null, '' ]
+38 silly lockFile a9b5f0bc-optipng-bin optipng-bin@
+39 verbose lock optipng-bin@ /home/gauravt/.npm/a9b5f0bc-optipng-bin.lock
+40 silly addNameRange { name: 'optipng-bin', range: '', hasData: false }
+41 verbose url raw optipng-bin
+42 verbose url resolving [ 'https://registry.npmjs.org/', './optipng-bin' ]
+43 verbose url resolved https://registry.npmjs.org/optipng-bin
+44 info trying registry request attempt 1 at 18:47:18
+45 verbose etag "27LCNNQSM7KGPC91IWCL1G73N"
+46 http GET https://registry.npmjs.org/optipng-bin
+47 http 304 https://registry.npmjs.org/optipng-bin
+48 silly registry.get cb [ 304,
+48 silly registry.get   { date: 'Fri, 28 Mar 2014 13:17:20 GMT',
+48 silly registry.get     server: 'Apache',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     'last-modified': 'Fri, 28 Mar 2014 13:17:20 GMT',
+48 silly registry.get     'cache-control': 'max-age=1',
+48 silly registry.get     etag: '"27LCNNQSM7KGPC91IWCL1G73N"',
+48 silly registry.get     'x-served-by': 'cache-sv60-SJC3',
+48 silly registry.get     'x-cache': 'MISS',
+48 silly registry.get     'x-cache-hits': '0',
+48 silly registry.get     'x-timer': 'S1396012640.161486626,VS0,VE154',
+48 silly registry.get     vary: 'Accept',
+48 silly registry.get     'content-length': '0',
+48 silly registry.get     'keep-alive': 'timeout=10, max=50',
+48 silly registry.get     connection: 'Keep-Alive' } ]
+49 verbose etag optipng-bin from cache
+50 silly addNameRange number 2 { name: 'optipng-bin', range: '', hasData: true }
+51 silly addNameRange versions [ 'optipng-bin',
+51 silly addNameRange   [ '0.1.0',
+51 silly addNameRange     '0.2.0',
+51 silly addNameRange     '0.2.1',
+51 silly addNameRange     '0.2.2',
+51 silly addNameRange     '0.2.3',
+51 silly addNameRange     '0.2.4',
+51 silly addNameRange     '0.2.5',
+51 silly addNameRange     '0.2.6',
+51 silly addNameRange     '0.3.0',
+51 silly addNameRange     '0.3.1',
+51 silly addNameRange     '0.3.2',
+51 silly addNameRange     '0.3.3' ] ]
+52 verbose addNamed [ 'optipng-bin', '0.3.3' ]
+53 verbose addNamed [ '0.3.3', '0.3.3' ]
+54 silly lockFile 9e150aed-optipng-bin-0-3-3 optipng-bin@0.3.3
+55 verbose lock optipng-bin@0.3.3 /home/gauravt/.npm/9e150aed-optipng-bin-0-3-3.lock
+56 verbose read json /home/gauravt/.npm/optipng-bin/0.3.3/package/package.json
+57 silly lockFile 9e150aed-optipng-bin-0-3-3 optipng-bin@0.3.3
+58 silly lockFile 9e150aed-optipng-bin-0-3-3 optipng-bin@0.3.3
+59 silly lockFile a9b5f0bc-optipng-bin optipng-bin@
+60 silly lockFile a9b5f0bc-optipng-bin optipng-bin@
+61 silly resolved [ { name: 'optipng-bin',
+61 silly resolved     version: '0.3.3',
+61 silly resolved     description: 'OptiPNG wrapper that makes it seamlessly available as a local dependency on OS X, Linux, FreeBSD and Windows',
+61 silly resolved     keywords: [ 'png', 'compress', 'minify', 'optimize', 'img', 'image' ],
+61 silly resolved     author:
+61 silly resolved      { name: 'Sindre Sorhus',
+61 silly resolved        email: 'sindresorhus@gmail.com',
+61 silly resolved        url: 'http://sindresorhus.com' },
+61 silly resolved     maintainers: [ [Object] ],
+61 silly resolved     main: 'index.js',
+61 silly resolved     bin: { optipng: 'cli.js' },
+61 silly resolved     repository:
+61 silly resolved      { type: 'git',
+61 silly resolved        url: 'git://github.com/yeoman/node-optipng-bin.git' },
+61 silly resolved     scripts:
+61 silly resolved      { test: 'mocha --reporter list --timeout 0',
+61 silly resolved        postinstall: 'node index.js' },
+61 silly resolved     engines: { node: '>=0.10.0' },
+61 silly resolved     licenses: [ [Object] ],
+61 silly resolved     dependencies:
+61 silly resolved      { 'bin-wrapper': '^0.2.0',
+61 silly resolved        chalk: '^0.4.0',
+61 silly resolved        'concat-stream': '^1.4.4',
+61 silly resolved        rimraf: '^2.2.6',
+61 silly resolved        tempfile: '^0.1.3',
+61 silly resolved        'win-spawn': '^2.0.0' },
+61 silly resolved     devDependencies: { 'bin-check': '^0.1.0', mocha: '^1.18.2', multipipe: '^0.0.2' },
+61 silly resolved     files: [ 'cli.js', 'index.js', 'stream.js' ],
+61 silly resolved     readme: '# node-optipng-bin [![Build Status](https://secure.travis-ci.org/yeoman/node-optipng-bin.png?branch=master)](http://travis-ci.org/yeoman/node-optipng-bin)\n\n[OptiPNG](http://optipng.sourceforge.net) 0.7.4 Node.js wrapper that makes it seamlessly available as a local dependency on OS X, Linux, FreeBSD, Solaris and Windows.\n\n> OptiPNG is a PNG optimizer that recompresses image files to a smaller size, without losing any information.\n\n## Install\n\nInstall with [npm](https://npmjs.org/package/optipng-bin): `npm install --save optipng-bin`\n\n\n## Example usage\n\n```js\nvar execFile = require(\'child_process\').execFile;\nvar optipngPath = require(\'optipng-bin\').path;\n\nexecFile(optipngPath, [\'-v\'], function(err, stdout, stderr) {\n    console.log(\'OptiPNG version:\', stdout.match(/\\d\\.\\d\\.\\d/)[0]);\n});\n```\n\nCan also be run directly from `./node_modules/.bin/optipng`.\n\n\n## License\n\nEverything excluding the binaries licensed under the [BSD license](http://opensource.org/licenses/bsd-license.php) and copyright Google.\n\nOptiPNG licensed under the [zlib license](http://optipng.sourceforge.net/license.txt) and copyright Cosmin Truta and the Contributing Authors.\n',
+61 silly resolved     readmeFilename: 'readme.md',
+61 silly resolved     _id: 'optipng-bin@0.3.3',
+61 silly resolved     _from: 'optipng-bin@' } ]
+62 info install optipng-bin@0.3.3 into /home/gauravt/linkedinhackathon/networkbee
+63 info installOne optipng-bin@0.3.3
+64 verbose from cache /home/gauravt/.npm/optipng-bin/0.3.3/package/package.json
+65 info /home/gauravt/linkedinhackathon/networkbee/node_modules/optipng-bin unbuild
+66 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/optipng-bin/package.json
+67 verbose tar unpack /home/gauravt/.npm/optipng-bin/0.3.3/package.tgz
+68 silly lockFile 6942e43a-workbee-node-modules-optipng-bin /home/gauravt/linkedinhackathon/networkbee/node_modules/optipng-bin
+69 verbose lock /home/gauravt/linkedinhackathon/networkbee/node_modules/optipng-bin /home/gauravt/.npm/6942e43a-workbee-node-modules-optipng-bin.lock
+70 silly lockFile 408766ef-pm-optipng-bin-0-3-3-package-tgz /home/gauravt/.npm/optipng-bin/0.3.3/package.tgz
+71 verbose lock /home/gauravt/.npm/optipng-bin/0.3.3/package.tgz /home/gauravt/.npm/408766ef-pm-optipng-bin-0-3-3-package-tgz.lock
+72 silly gunzTarPerm modes [ '755', '644' ]
+73 silly gunzTarPerm extractEntry package.json
+74 silly gunzTarPerm extractEntry cli.js
+75 silly gunzTarPerm extractEntry index.js
+76 silly gunzTarPerm extractEntry stream.js
+77 silly gunzTarPerm extractEntry readme.md
+78 verbose read json /home/gauravt/linkedinhackathon/networkbee/node_modules/optipng-bin/package.json
+79 silly lockFile 6942e43a-workbee-node-modules-optipng-bin /home/gauravt/linkedinhackathon/networkbee/node_modules/optipng-bin
+80 silly lockFile 6942e43a-workbee-node-modules-optipng-bin /home/gauravt/linkedinhackathon/networkbee/node_modules/optipng-bin
+81 silly lockFile 408766ef-pm-optipng-bin-0-3-3-package-tgz /home/gauravt/.npm/optipng-bin/0.3.3/package.tgz
+82 silly lockFile 408766ef-pm-optipng-bin-0-3-3-package-tgz /home/gauravt/.npm/optipng-bin/0.3.3/package.tgz
+83 info preinstall optipng-bin@0.3.3
+84 verbose from cache /home/gauravt/linkedinhackathon/networkbee/node_modules/optipng-bin/package.json
+85 verbose readDependencies using package.json deps
+86 verbose from cache /home/gauravt/linkedinhackathon/networkbee/node_modules/optipng-bin/package.json
+87 verbose readDependencies using package.json deps
+88 verbose cache add [ 'bin-wrapper@^0.2.0', null ]
+89 verbose cache add name=undefined spec="bin-wrapper@^0.2.0" args=["bin-wrapper@^0.2.0",null]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: 'bin-wrapper@^0.2.0',
+90 verbose parsed url   path: 'bin-wrapper@^0.2.0',
+90 verbose parsed url   href: 'bin-wrapper@^0.2.0' }
+91 verbose cache add name="bin-wrapper" spec="^0.2.0" args=["bin-wrapper","^0.2.0"]
+92 verbose parsed url { protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: '^0.2.0',
+92 verbose parsed url   path: '^0.2.0',
+92 verbose parsed url   href: '^0.2.0' }
+93 verbose addNamed [ 'bin-wrapper', '^0.2.0' ]
+94 verbose addNamed [ null, null ]
+95 silly lockFile e47d8940-bin-wrapper-0-2-0 bin-wrapper@^0.2.0
+96 verbose lock bin-wrapper@^0.2.0 /home/gauravt/.npm/e47d8940-bin-wrapper-0-2-0.lock
+97 verbose cache add [ 'chalk@^0.4.0', null ]
+98 verbose cache add name=undefined spec="chalk@^0.4.0" args=["chalk@^0.4.0",null]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: 'chalk@^0.4.0',
+99 verbose parsed url   path: 'chalk@^0.4.0',
+99 verbose parsed url   href: 'chalk@^0.4.0' }
+100 verbose cache add name="chalk" spec="^0.4.0" args=["chalk","^0.4.0"]
+101 verbose parsed url { protocol: null,
+101 verbose parsed url   slashes: null,
+101 verbose parsed url   auth: null,
+101 verbose parsed url   host: null,
+101 verbose parsed url   port: null,
+101 verbose parsed url   hostname: null,
+101 verbose parsed url   hash: null,
+101 verbose parsed url   search: null,
+101 verbose parsed url   query: null,
+101 verbose parsed url   pathname: '^0.4.0',
+101 verbose parsed url   path: '^0.4.0',
+101 verbose parsed url   href: '^0.4.0' }
+102 verbose addNamed [ 'chalk', '^0.4.0' ]
+103 verbose addNamed [ null, null ]
+104 silly lockFile b2f4396d-chalk-0-4-0 chalk@^0.4.0
+105 verbose lock chalk@^0.4.0 /home/gauravt/.npm/b2f4396d-chalk-0-4-0.lock
+106 info addNameTag [ 'bin-wrapper', '^0.2.0' ]
+107 verbose cache add [ 'rimraf@^2.2.6', null ]
+108 verbose cache add name=undefined spec="rimraf@^2.2.6" args=["rimraf@^2.2.6",null]
+109 verbose parsed url { protocol: null,
+109 verbose parsed url   slashes: null,
+109 verbose parsed url   auth: null,
+109 verbose parsed url   host: null,
+109 verbose parsed url   port: null,
+109 verbose parsed url   hostname: null,
+109 verbose parsed url   hash: null,
+109 verbose parsed url   search: null,
+109 verbose parsed url   query: null,
+109 verbose parsed url   pathname: 'rimraf@^2.2.6',
+109 verbose parsed url   path: 'rimraf@^2.2.6',
+109 verbose parsed url   href: 'rimraf@^2.2.6' }
+110 verbose cache add name="rimraf" spec="^2.2.6" args=["rimraf","^2.2.6"]
+111 verbose parsed url { protocol: null,
+111 verbose parsed url   slashes: null,
+111 verbose parsed url   auth: null,
+111 verbose parsed url   host: null,
+111 verbose parsed url   port: null,
+111 verbose parsed url   hostname: null,
+111 verbose parsed url   hash: null,
+111 verbose parsed url   search: null,
+111 verbose parsed url   query: null,
+111 verbose parsed url   pathname: '^2.2.6',
+111 verbose parsed url   path: '^2.2.6',
+111 verbose parsed url   href: '^2.2.6' }
+112 verbose addNamed [ 'rimraf', '^2.2.6' ]
+113 verbose addNamed [ null, null ]
+114 silly lockFile ebcb6df7-rimraf-2-2-6 rimraf@^2.2.6
+115 verbose lock rimraf@^2.2.6 /home/gauravt/.npm/ebcb6df7-rimraf-2-2-6.lock
+116 verbose cache add [ 'concat-stream@^1.4.4', null ]
+117 verbose cache add name=undefined spec="concat-stream@^1.4.4" args=["concat-stream@^1.4.4",null]
+118 verbose parsed url { protocol: null,
+118 verbose parsed url   slashes: null,
+118 verbose parsed url   auth: null,
+118 verbose parsed url   host: null,
+118 verbose parsed url   port: null,
+118 verbose parsed url   hostname: null,
+118 verbose parsed url   hash: null,
+118 verbose parsed url   search: null,
+118 verbose parsed url   query: null,
+118 verbose parsed url   pathname: 'concat-stream@^1.4.4',
+118 verbose parsed url   path: 'concat-stream@^1.4.4',
+118 verbose parsed url   href: 'concat-stream@^1.4.4' }
+119 verbose cache add name="concat-stream" spec="^1.4.4" args=["concat-stream","^1.4.4"]
+120 verbose parsed url { protocol: null,
+120 verbose parsed url   slashes: null,
+120 verbose parsed url   auth: null,
+120 verbose parsed url   host: null,
+120 verbose parsed url   port: null,
+120 verbose parsed url   hostname: null,
+120 verbose parsed url   hash: null,
+120 verbose parsed url   search: null,
+120 verbose parsed url   query: null,
+120 verbose parsed url   pathname: '^1.4.4',
+120 verbose parsed url   path: '^1.4.4',
+120 verbose parsed url   href: '^1.4.4' }
+121 verbose addNamed [ 'concat-stream', '^1.4.4' ]
+122 verbose addNamed [ null, null ]
+123 silly lockFile d1e9f27d-concat-stream-1-4-4 concat-stream@^1.4.4
+124 verbose lock concat-stream@^1.4.4 /home/gauravt/.npm/d1e9f27d-concat-stream-1-4-4.lock
+125 verbose cache add [ 'tempfile@^0.1.3', null ]
+126 verbose cache add name=undefined spec="tempfile@^0.1.3" args=["tempfile@^0.1.3",null]
+127 verbose parsed url { protocol: null,
+127 verbose parsed url   slashes: null,
+127 verbose parsed url   auth: null,
+127 verbose parsed url   host: null,
+127 verbose parsed url   port: null,
+127 verbose parsed url   hostname: null,
+127 verbose parsed url   hash: null,
+127 verbose parsed url   search: null,
+127 verbose parsed url   query: null,
+127 verbose parsed url   pathname: 'tempfile@^0.1.3',
+127 verbose parsed url   path: 'tempfile@^0.1.3',
+127 verbose parsed url   href: 'tempfile@^0.1.3' }
+128 verbose cache add name="tempfile" spec="^0.1.3" args=["tempfile","^0.1.3"]
+129 verbose parsed url { protocol: null,
+129 verbose parsed url   slashes: null,
+129 verbose parsed url   auth: null,
+129 verbose parsed url   host: null,
+129 verbose parsed url   port: null,
+129 verbose parsed url   hostname: null,
+129 verbose parsed url   hash: null,
+129 verbose parsed url   search: null,
+129 verbose parsed url   query: null,
+129 verbose parsed url   pathname: '^0.1.3',
+129 verbose parsed url   path: '^0.1.3',
+129 verbose parsed url   href: '^0.1.3' }
+130 verbose addNamed [ 'tempfile', '^0.1.3' ]
+131 verbose addNamed [ null, null ]
+132 silly lockFile 2be6dfc2-tempfile-0-1-3 tempfile@^0.1.3
+133 verbose lock tempfile@^0.1.3 /home/gauravt/.npm/2be6dfc2-tempfile-0-1-3.lock
+134 verbose cache add [ 'win-spawn@^2.0.0', null ]
+135 verbose cache add name=undefined spec="win-spawn@^2.0.0" args=["win-spawn@^2.0.0",null]
+136 verbose parsed url { protocol: null,
+136 verbose parsed url   slashes: null,
+136 verbose parsed url   auth: null,
+136 verbose parsed url   host: null,
+136 verbose parsed url   port: null,
+136 verbose parsed url   hostname: null,
+136 verbose parsed url   hash: null,
+136 verbose parsed url   search: null,
+136 verbose parsed url   query: null,
+136 verbose parsed url   pathname: 'win-spawn@^2.0.0',
+136 verbose parsed url   path: 'win-spawn@^2.0.0',
+136 verbose parsed url   href: 'win-spawn@^2.0.0' }
+137 verbose cache add name="win-spawn" spec="^2.0.0" args=["win-spawn","^2.0.0"]
+138 verbose parsed url { protocol: null,
+138 verbose parsed url   slashes: null,
+138 verbose parsed url   auth: null,
+138 verbose parsed url   host: null,
+138 verbose parsed url   port: null,
+138 verbose parsed url   hostname: null,
+138 verbose parsed url   hash: null,
+138 verbose parsed url   search: null,
+138 verbose parsed url   query: null,
+138 verbose parsed url   pathname: '^2.0.0',
+138 verbose parsed url   path: '^2.0.0',
+138 verbose parsed url   href: '^2.0.0' }
+139 verbose addNamed [ 'win-spawn', '^2.0.0' ]
+140 verbose addNamed [ null, null ]
+141 silly lockFile 94d4adb4-win-spawn-2-0-0 win-spawn@^2.0.0
+142 verbose lock win-spawn@^2.0.0 /home/gauravt/.npm/94d4adb4-win-spawn-2-0-0.lock
+143 info addNameTag [ 'chalk', '^0.4.0' ]
+144 info addNameTag [ 'rimraf', '^2.2.6' ]
+145 info addNameTag [ 'concat-stream', '^1.4.4' ]
+146 info addNameTag [ 'tempfile', '^0.1.3' ]
+147 info addNameTag [ 'win-spawn', '^2.0.0' ]
+148 verbose url raw bin-wrapper
+149 verbose url resolving [ 'https://registry.npmjs.org/', './bin-wrapper' ]
+150 verbose url resolved https://registry.npmjs.org/bin-wrapper
+151 info trying registry request attempt 1 at 18:47:19
+152 verbose etag "53W8HE7LYR1U0SBHZ9Z6W43OH"
+153 http GET https://registry.npmjs.org/bin-wrapper
+154 verbose url raw chalk
+155 verbose url resolving [ 'https://registry.npmjs.org/', './chalk' ]
+156 verbose url resolved https://registry.npmjs.org/chalk
+157 info trying registry request attempt 1 at 18:47:19
+158 verbose etag "6Q9G8EQIVKI43IWRSBSQ5BU8S"
+159 http GET https://registry.npmjs.org/chalk
+160 verbose url raw rimraf
+161 verbose url resolving [ 'https://registry.npmjs.org/', './rimraf' ]
+162 verbose url resolved https://registry.npmjs.org/rimraf
+163 info trying registry request attempt 1 at 18:47:19
+164 verbose etag "B6FRW7Q888ZVY9ZH5MI0G8H2C"
+165 http GET https://registry.npmjs.org/rimraf
+166 verbose url raw concat-stream
+167 verbose url resolving [ 'https://registry.npmjs.org/', './concat-stream' ]
+168 verbose url resolved https://registry.npmjs.org/concat-stream
+169 info trying registry request attempt 1 at 18:47:19
+170 verbose etag "7UTRG9WCSFDIMVHWI1RIGZOHY"
+171 http GET https://registry.npmjs.org/concat-stream
+172 verbose url raw tempfile
+173 verbose url resolving [ 'https://registry.npmjs.org/', './tempfile' ]
+174 verbose url resolved https://registry.npmjs.org/tempfile
+175 info trying registry request attempt 1 at 18:47:19
+176 verbose etag "CU4FEG3WLBXRYZN0X9NB1AI5X"
+177 http GET https://registry.npmjs.org/tempfile
+178 verbose url raw win-spawn
+179 verbose url resolving [ 'https://registry.npmjs.org/', './win-spawn' ]
+180 verbose url resolved https://registry.npmjs.org/win-spawn
+181 info trying registry request attempt 1 at 18:47:19
+182 verbose etag "36ULGW0H8JVAVCKYYQRVQFM4F"
+183 http GET https://registry.npmjs.org/win-spawn
+184 http 304 https://registry.npmjs.org/bin-wrapper
+185 silly registry.get cb [ 304,
+185 silly registry.get   { date: 'Fri, 28 Mar 2014 13:17:21 GMT',
+185 silly registry.get     server: 'Apache',
+185 silly registry.get     via: '1.1 varnish',
+185 silly registry.get     'last-modified': 'Fri, 28 Mar 2014 13:17:21 GMT',
+185 silly registry.get     'cache-control': 'max-age=1',
+185 silly registry.get     etag: '"53W8HE7LYR1U0SBHZ9Z6W43OH"',
+185 silly registry.get     'x-served-by': 'cache-sv94-SJC3',
+185 silly registry.get     'x-cache': 'HIT',
+185 silly registry.get     'x-cache-hits': '1',
+185 silly registry.get     'x-timer': 'S1396012641.562924385,VS0,VE74',
+185 silly registry.get     vary: 'Accept',
+185 silly registry.get     'content-length': '0',
+185 silly registry.get     'keep-alive': 'timeout=10, max=50',
+185 silly registry.get     connection: 'Keep-Alive' } ]
+186 verbose etag bin-wrapper from cache
+187 http 304 https://registry.npmjs.org/chalk
+188 silly registry.get cb [ 304,
+188 silly registry.get   { date: 'Fri, 28 Mar 2014 13:17:21 GMT',
+188 silly registry.get     server: 'Apache',
+188 silly registry.get     via: '1.1 varnish',
+188 silly registry.get     'last-modified': 'Fri, 28 Mar 2014 13:17:21 GMT',
+188 silly registry.get     'cache-control': 'max-age=1',
+188 silly registry.get     etag: '"6Q9G8EQIVKI43IWRSBSQ5BU8S"',
+188 silly registry.get     'x-served-by': 'cache-sv94-SJC3',
+188 silly registry.get     'x-cache': 'HIT',
+188 silly registry.get     'x-cache-hits': '1',
+188 silly registry.get     'x-timer': 'S1396012641.565963984,VS0,VE76',
+188 silly registry.get     vary: 'Accept',
+188 silly registry.get     'content-length': '0',
+188 silly registry.get     'keep-alive': 'timeout=10, max=50',
+188 silly registry.get     connection: 'Keep-Alive' } ]
+189 verbose etag chalk from cache
+190 silly lockFile e47d8940-bin-wrapper-0-2-0 bin-wrapper@^0.2.0
+191 silly lockFile e47d8940-bin-wrapper-0-2-0 bin-wrapper@^0.2.0
+192 silly lockFile b2f4396d-chalk-0-4-0 chalk@^0.4.0
+193 silly lockFile b2f4396d-chalk-0-4-0 chalk@^0.4.0
+194 verbose about to build /home/gauravt/linkedinhackathon/networkbee/node_modules/optipng-bin
+195 info /home/gauravt/linkedinhackathon/networkbee/node_modules/optipng-bin unbuild
+196 verbose from cache /home/gauravt/linkedinhackathon/networkbee/node_modules/optipng-bin/package.json
+197 info preuninstall optipng-bin@0.3.3
+198 info uninstall optipng-bin@0.3.3
+199 verbose true,/home/gauravt/linkedinhackathon/networkbee/node_modules,/home/gauravt/linkedinhackathon/networkbee/node_modules unbuild optipng-bin@0.3.3
+200 verbose /home/gauravt/linkedinhackathon/networkbee/node_modules/.bin,[object Object] binRoot
+201 info postuninstall optipng-bin@0.3.3
+202 error Error: No compatible version found: bin-wrapper@'^0.2.0'
+202 error Valid install targets:
+202 error ["0.1.1","0.1.2","0.1.3","0.1.4","0.1.5","0.1.6","0.1.7","0.1.8","0.1.9","0.2.0","0.2.1","0.2.2","0.2.3"]
+202 error     at installTargetsError (/usr/local/lib/node_modules/npm/lib/cache.js:685:10)
+202 error     at /usr/local/lib/node_modules/npm/lib/cache.js:607:10
+202 error     at saved (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/get.js:138:7)
+202 error     at Object.oncomplete (fs.js:107:15)
+203 error If you need help, you may report this log at:
+203 error     <http://github.com/isaacs/npm/issues>
+203 error or email it to:
+203 error     <npm-@googlegroups.com>
+204 error System Linux 3.8.0-32-generic
+205 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "optipng-bin"
+206 error cwd /home/gauravt/linkedinhackathon/networkbee
+207 error node -v v0.10.4
+208 error npm -v 1.2.18
+209 verbose exit [ 1, true ]
