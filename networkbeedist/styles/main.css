@@ -8,6 +8,35 @@
   border-radius:4px;
 }
 .logo_container {
-  width:70%;
+  width:50%;
+}
+.login_message {
+  padding-top:20px;
+  color:#777;
+}
+.name {
+  padding-top:4px;
+  color:#555;
+}
+.intro {
+  padding-top:4px;
+  color:#777;
+}
+.fbconnect {
+  padding-top:15px;
+}
+.circle {
+  display: block;
+  width: 80px;
+  height: 80px;
+  margin: 1em auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-border-radius: 99em;
+  -moz-border-radius: 99em;
+  border-radius: 99em;
+  border: 3px solid #eee;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);  
 }
 

@@ -4,6 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
+gem 'mysql2'
 gem 'sqlite3'
 
 # Use SCSS for stylesheets
@@ -20,6 +21,8 @@ gem 'coffee-rails', '~> 4.0.0'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
+gem 'jquery-ui-sass-rails'
 
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
@@ -31,6 +34,40 @@ group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
 end
+
+gem 'libv8'
+gem 'carrierwave'
+gem "fog"
+gem 'uuidtools'
+gem 'delayed_job_active_record'
+gem 'daemons'
+gem 'exception_notification'
+gem 'therubyracer'
+gem 'json'
+gem 'newrelic_rpm'
+gem 'mini_magick'
+gem "bcrypt-ruby"
+gem "useragent"
+gem 'rubyzip'
+gem 'nokogiri'
+gem 'quiet_assets', :group => :development
+gem 'rails-i18n'
+gem 'htmlentities'
+gem "font-awesome-rails"
+gem 'omniauth'
+gem 'omniauth-twitter'
+gem 'omniauth-facebook'
+gem 'twitter'
+gem 'koala'
+gem 'curb'
+gem 'twilio-ruby'
+gem 'pdf-reader'
+gem 'twocheckout'
+gem "pandoc-ruby", "~> 0.6.1"
+gem 'feedzirra',"~> 0.2.0.rc2"
+gem 'capistrano',  '~> 2.15'
+gem 'angularjs-rails'
+gem 'angular_rails_csrf'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'

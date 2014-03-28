@@ -1,0 +1,21 @@
+<div id="networkebee_content">
+  <center>
+  <div class="login_message">
+    You are <%=@degrees%> degree seperated from <%=@targetName%>
+  </div>
+  <div>
+    <div class="circle" style="background-image: url('https://fbcdn-profile-a.akamaihd.net/static-ak/rsrc.php/v2/yL/r/HsTZSDw4avx.gif')">  </div>
+    <div class="name"><%=@targetName%></div>
+  </div>
+  <% @intermediaries.each do |i|%>
+  <div>
+    <div class="circle" style="background-image: url('<%=i.pic%>')">  </div>
+    <div class="name"><%=i.first_name + ' ' + i.last_name%></div>
+  </div>
+  <% end %>
+  <div>
+    <div class="circle" style="background-image: url('<%= @you.pic%>')">  </div>
+    <div class="name">You</div>
+  </div>
+  </center>
+</div>
