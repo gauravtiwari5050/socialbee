@@ -17,7 +17,7 @@ $(document).on("pageshow","#results",function(){ // When entering pagetwo
   url: "path",
   cache: false,
   data: {
-    target:'Pinaki'
+    target:$('#basic').val()
   }
   })
   .done(function( html ) {

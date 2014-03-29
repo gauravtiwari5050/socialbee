@@ -11,7 +11,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140328195742) do
+ActiveRecord::Schema.define(version: 20140329073825) do
+
+  create_table "edges", force: true do |t|
+    t.string   "user_id_1"
+    t.string   "user_id_2"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", force: true do |t|
     t.string   "email"
