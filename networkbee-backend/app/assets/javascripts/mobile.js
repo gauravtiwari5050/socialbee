@@ -10,7 +10,26 @@
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+$(document).on("pageshow","#results",function(){ // When entering pagetwo
+  $( "#found_results" ).hide();
+  $( "#still_searching" ).show();
+  $.ajax({
+  url: "path",
+  cache: false,
+  data: {
+    target:'Pinaki'
+  }
+  })
+  .done(function( html ) {
+    $( "#found_results" ).html( html );
+    $( "#still_searching" ).hide();
+    $( "#found_results" ).show();
+
+  })
+  .fail(function( err ) {
+    alert('Something Went wrong');
+  })
+
+;
+    
+});
